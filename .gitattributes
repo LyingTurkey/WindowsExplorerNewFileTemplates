@@ -1,1 +1,2 @@
-*.reg linguist-detectable
+*.reg linguist-language=Windows-Registry-Entries
+*.reg linguist-detectable=true
