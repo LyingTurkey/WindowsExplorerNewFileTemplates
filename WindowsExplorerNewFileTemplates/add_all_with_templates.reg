@@ -1,0 +1,35 @@
+Windows Registry Editor Version 5.00
+
+; --- JAVASCRIPT WITH TEMPLATE ---
+[HKEY_CLASSES_ROOT\.js]
+@="JSFile"
+
+[HKEY_CLASSES_ROOT\JSFile]
+@="JavaScript File"
+
+[HKEY_CLASSES_ROOT\JSFile\ShellNew]
+"FileName"="template.js"
+
+; --- PYTHON WITH TEMPLATE ---
+[HKEY_CLASSES_ROOT\.py]
+@="PythonFile"
+
+[HKEY_CLASSES_ROOT\PythonFile]
+@="Python Script"
+
+[HKEY_CLASSES_ROOT\PythonFile\ShellNew]
+"FileName"="template.py"
+
+; --- REGISTRY ENTRY WITH TEMPLATE ---
+[HKEY_CLASSES_ROOT\.reg]
+@="regfile"
+
+[HKEY_CLASSES_ROOT\regfile\ShellNew]
+"FileName"="template.reg"
+
+; --- BATCH SCRIPT WITH TEMPLATE ---
+[HKEY_CLASSES_ROOT\.bat]
+@="batfile"
+
+[HKEY_CLASSES_ROOT\batfile\ShellNew]
+"FileName"="template.bat"

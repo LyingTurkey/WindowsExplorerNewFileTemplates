@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.py]
+@="PythonFile"
+
+[HKEY_CLASSES_ROOT\PythonFile]
+@="Python Script"
+
+[HKEY_CLASSES_ROOT\PythonFile\ShellNew]
+"NullFile"=""
