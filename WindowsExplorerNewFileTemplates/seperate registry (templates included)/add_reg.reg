@@ -1,7 +1,0 @@
-Windows Registry Editor Version 5.00
-
-[HKEY_CLASSES_ROOT\.reg]
-@="regfile"
-
-[HKEY_CLASSES_ROOT\regfile\ShellNew]
-"FileName"="template.reg"
